@@ -1,0 +1,29 @@
+body {
+  background-color: #8cafff;
+}
+
+.shadow-own {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.196);
+}
+
+.text-gray {
+  color: #8c8c8c;
+}
+
+.button-register {
+  background-color: #ff6622;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.button-login {
+  background-color: #6c97f7;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
