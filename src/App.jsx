@@ -1,4 +1,12 @@
-import { Login } from "./components/login";
+import { Login } from "./components/Login";
+import { Footer } from "./components/Footer";
+
 export function App() {
-  return <Login />;
+  return (
+    <>
+      <Login>
+        <Footer />
+      </Login>
+    </>
+  );
 }
