@@ -1,9 +1,9 @@
 import "./Buttons.css";
 
-export function ButtonTrue(children) {
-  return <button className="button-true">{children}</button>;
+export function ButtonTrueLg({ children }) {
+  return <button className="col button-true">{children}</button>;
 }
 
-export function ButtonFalse(children) {
-  return <button className="button-false">{children}</button>;
+export function ButtonFalseLg({ children }) {
+  return <button className="col button-false">{children}</button>;
 }

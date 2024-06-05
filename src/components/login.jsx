@@ -1,6 +1,6 @@
 import "./login.css";
 import logo from "../assets/img/ABAE-Logo.png";
-import { ButtonTrue, ButtonFalse } from "./Buttons";
+import { ButtonTrueLg, ButtonFalseLg } from "./Buttons";
 import { TEXT_BUTTONS } from "../constants";
 
 export function Login({ children }) {
@@ -37,8 +37,8 @@ export function Login({ children }) {
                 </small>
               </div>
               <div className="row mt-3">
-                <ButtonFalse>{TEXT_BUTTONS.REGISTER}</ButtonFalse>
-                <ButtonTrue>{TEXT_BUTTONS.LOGIN}</ButtonTrue>
+                <ButtonFalseLg>{TEXT_BUTTONS.REGISTER}</ButtonFalseLg>
+                <ButtonTrueLg>{TEXT_BUTTONS.LOGIN}</ButtonTrueLg>
               </div>
             </form>
           </div>
