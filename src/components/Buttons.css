@@ -1,0 +1,17 @@
+.button-false {
+  background-color: #ff6622;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.button-true {
+  background-color: #6c97f7;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}

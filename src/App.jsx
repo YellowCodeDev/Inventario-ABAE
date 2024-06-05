@@ -4,8 +4,9 @@ import { Footer } from "./components/footer.jsx";
 export function App() {
   return (
     <>
-      <Login />
-      <Footer />
+      <Login>
+        <Footer />
+      </Login>
     </>
   );
 }
