@@ -1,4 +1,0 @@
-export const TEXT_BUTTONS = {
-  REGISTER: "REGISTRATE",
-  LOGIN: "INGRESA",
-};
