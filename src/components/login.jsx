@@ -1,12 +1,9 @@
 import "./login.css";
 import logo from "../assets/img/ABAE-Logo.png";
-import { Footer } from "./Footer.jsx";
 export function Login({ children }) {
   return (
     <section className="container p-4 my-4">
-      { 
-        children 
-      }
+      {children}
       <div className="row my-5">
         <div className="col">
           <picture>
